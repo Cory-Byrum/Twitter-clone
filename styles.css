@@ -16,13 +16,36 @@
   /*background-color: #171f29;
   */
   margin: 15px;
-  width: 50px;
+  width: 150px;
   display: flex;
   flex-direction: column;
-  align-self: flex-end;
+}
+
+.ButtonRow {
+  display: flex;
+}
+
+.ButtonRow,
+P {
+  display: inline-block;
+}
+.TweetButton {
+  width: 200px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #1c92da;
+}
+.TweetButton,
+Text {
+  padding: 20px;
+  color: white;
 }
 
 .NewsFeedCol {
+  display: flex;
+  flex-direction: column;
 }
 
 .HomeHeader {
@@ -32,17 +55,17 @@
 }
 
 .ThirdSection {
- display: flex;
- flex-direction: column;
- justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .SearchBar {
-  background-color: #27323F;
+  background-color: #27323f;
   border: none;
   border-radius: 50px;
-  margin-left:15px;
-  margin-right:10px;
+  margin-left: 15px;
+  margin-right: 10px;
 }
 
 .TrendingCol {
@@ -52,8 +75,8 @@
   width: auto;
   padding: 15px;
   margin-left: 15px;
-  margin-right:10px;
-  margin-top:5px;
+  margin-right: 10px;
+  margin-top: 5px;
   flex-grow: 0.5;
 }
 
@@ -64,16 +87,26 @@
   border-right: 0px;
   border-style: solid;
   border-color: darkslategray;
-
 }
 
 .Text {
   color: white;
 }
 .Icon {
-  background-image: url("https://i.ibb.co/C6nmMvx/AB5-EAFE4-AC20-4-E6-D-BFD0-EF953-C9818-A0.png") no-repeat;
+  background-image: url("https://i.ibb.co/C6nmMvx/AB5-EAFE4-AC20-4-E6-D-BFD0-EF953-C9818-A0.png")
+    no-repeat;
   border-radius: 50%;
   width: 40px;
   height: 40px;
   margin: 10px;
+}
+
+.Icon1 {
+  background-image: url("https://i.ibb.co/C6nmMvx/AB5-EAFE4-AC20-4-E6-D-BFD0-EF953-C9818-A0.png")
+    no-repeat;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  margin-right: 100px;
 }
