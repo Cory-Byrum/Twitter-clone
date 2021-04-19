@@ -6,7 +6,7 @@ function MainContainer() {
       <colgroup className="MainContainer">
         <SideBar />
         <NewsFeedCol />
-        <TrendingCol/>
+        <TrendingCol />
       </colgroup>
     </div>
   );
@@ -16,17 +16,26 @@ function SideBar() {
   return (
     <div className="NavBarCol">
       <col />
-      <button className="Icon"/>
-      <button className="Icon"/>
-      <button className="Icon"/>
-      <button className="Icon"/>
-      <button className="Icon"/>
-      <button className="Icon"/>
-      <button className="Icon"/>
-      <button className="Icon"/>
-      <button className="Icon"/>
-      <button className="Icon"/>
-
+      <div classNAme="ButtonRow">
+        <button className="Icon1" />
+        <button className="Icon" />
+        <p>Home</p>
+        <button className="Icon" />
+        <p>Explore</p>
+        <button className="Icon" />
+        <p>Notifications</p>
+        <button className="Icon" />
+        <p>Messages</p>
+        <button className="Icon" />
+        <p>Bookmarks</p>
+        <button className="Icon" />
+        <p>Lists</p>
+        <button className="Icon" />
+        <p>Profile</p>
+        <button className="Icon" />
+        <p>More</p>
+      </div>
+      <button className="TweetButton">Tweet</button>
     </div>
   );
 }
@@ -36,7 +45,7 @@ function NewsFeedCol() {
     <div className="NewsFeedCol">
       <col />
       <div className="HomeHeader">
-      <h3>Home</h3>
+        <h3>Home</h3>
       </div>
       <col />
       <h3>News Feed</h3>
@@ -49,17 +58,16 @@ function TrendingCol() {
   return (
     <div>
       <div className="ThirdSection">
-
-<input className="SearchBar"/>
+        <input className="SearchBar" />
       </div>
-    <div className="TrendingCol">
-      <col/>
-      <h3 className="TrendingHeader">What's happening</h3>
-      <p>Trending News article</p>
-      <p>Trending topic</p>
-      <p>News Article</p>
+      <div className="TrendingCol">
+        <col />
+        <h3 className="TrendingHeader">What's happening</h3>
+        <p>Trending News article</p>
+        <p>Trending topic</p>
+        <p>News Article</p>
       </div>
-      </div>
+    </div>
   );
 }
 
